@@ -33,7 +33,7 @@
                         @endif
 
                                     <!-- 引入 csrf token 字段 -->
-                                    {{ csrf_field() }}
+                                   @csrf
                                     <!-- 注意这里多了 @change -->
                                         <select-district @change="onDistrictChanged" :init-value="{{json_encode([old('province', $address->province), old('city', $address->city), old('district', $address->district)])}}" inline-template>
                                             <div class="form-group row">
