@@ -405,7 +405,7 @@ return [
                     'syntax' => true,
                     'toolbar' =>
                         [
-                            ['size' => []],
+                            [ 'size'=>[] ], // 字体大小
                             ['header' => []],
                             'bold',
                             'italic',
@@ -431,7 +431,7 @@ return [
                         ],
                 ],
                 'theme' => 'snow',
-                'height' => '200px',
+                'height' => '500px',
             ]
         ]
         // 新增编辑器配置结束
